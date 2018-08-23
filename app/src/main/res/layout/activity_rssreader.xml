@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RSSReaderActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="RSS Reader"
+        android:textColor="#000000"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/lisinDiarioButton"
+        android:onClick="callViewDataActivity"
+        android:text="Listin Diario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/wiredButton"
+        android:layout_marginEnd="14dp" />
+
+    <Button
+        android:id="@+id/wiredButton"
+        android:onClick="callViewDataActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="174dp"
+        android:text="Wired" />
+
+</RelativeLayout>
